@@ -15,4 +15,5 @@ client_deploy/
 /dbinit/
 /docker-compose*.yml
 /Dockerfile
+/DataDockerfile
 /sqlserver_data

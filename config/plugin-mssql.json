@@ -1,7 +1,7 @@
 {
   "scimgateway": {
-    "port": 8888,
-    "localhostonly": false,
+    "port": 8880,
+    "localhostonly": true,
     "payloadSize": null,
     "scim": {
       "version": "2.0",
@@ -21,7 +21,7 @@
       "basic": [
         {
           "username": "gwadmin",
-          "password": "password",
+          "password": "ZjcxYWIxYzI5NTQ0MzMzN2JkOGYzZTc4OTJkMTA0NzY6NDIyN2VmMzJhYzc4ZGQ0N2ZhOTUzZjViOWJlY2QyYmY=",
           "readOnly": false,
           "baseEntities": []
         }
@@ -134,12 +134,12 @@
   },
   "endpoint": {
     "connection": {
-      "server": "MySqlHost",
+      "server": "localhost",
       "authentication": {
         "type": "default",
         "options": {
           "userName": "scimgateway",
-          "password": "password"
+          "password": "OGZkZWJiNTYzZmNlODY0MzZlODJiODY1MDdhMGVlOTk6ZWJmYWFlYzI5MmYwYTZlMjBhNmFhNzVkZjQwZjAyN2Q="
         }
       },
       "options": {
